@@ -2,6 +2,8 @@ import React from 'react';
 import FilterLink from '../containers/FilterLink';
 import { VisibilityFilters } from '../actions';
 
+///here is a one-line comment
+
 const Footer = () => (
   <p>
     Show: <FilterLink filter={VisibilityFilters.SHOW_ALL}>All</FilterLink>
